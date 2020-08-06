@@ -19,21 +19,21 @@ time, mark, audio, video {
 	vertical-align: baseline;
 }
 nav{
-  border: purple solid 1px;
+  /*border: purple solid 1px;*/
 }
 .super{
   border-radius:50%;
   display:inline-block;
-  border: black solid 1px;
+  /*border: black solid 1px;*/
 
 }
 .annoy{
-  border: crimson solid 1px;
+  /* border: crimson solid 1px;*/
 }
 .park{
   position:absolute;
   display:inline-block;
-  border: blue solid 10px;
+ /* border: blue solid 10px;*/
   margin:2%;
 }
 .park p{
@@ -43,13 +43,14 @@ nav{
 }
 .valley{
   display:inline-block;
-  border:blue solid 1px;
+ ?/* border:blue solid 1px;*/
   background: tan;
  
 }
 .valley p{
   font-size: 25px;
   margin: 0 auto;
+  color:white;
 }
 h1{
   font-size:65px;
@@ -58,7 +59,7 @@ h1{
 }
 
 .button1{
-    background-color: crimson; /* Green */
+    background-color: crimson; 
   border: none;
   color: white;
   margin: 7%;
@@ -82,7 +83,7 @@ h1{
 }
 
 .button3{
-    background-color: green;
+    background-color: gold;
     border:none;
     color:white;
     text-align:center;
@@ -103,9 +104,14 @@ h1{
 }
 
 footer{
-  border: green solid 1px;
+  /*border: green solid 1px;*/
+  width:100%;
+  
 }
 footer section{
   background: tan;
-  width 50%;
+  background-size: 25%;
+}
+footer img{
+    width:100%;
 }
