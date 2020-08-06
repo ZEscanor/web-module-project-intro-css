@@ -33,6 +33,7 @@ nav{
 .park{
   position:absolute;
   display:inline-block;
+  
  /* border: blue solid 10px;*/
   margin:2%;
 }
@@ -43,8 +44,9 @@ nav{
 }
 .valley{
   display:inline-block;
- ?/* border:blue solid 1px;*/
-  background: tan;
+ /* border:blue solid 1px;*/
+  background: #DDB9A3;
+  margin:4% 0%;
  
 }
 .valley p{
@@ -55,11 +57,11 @@ nav{
 h1{
   font-size:65px;
   text-align:center;
-  font-family: 'PT Sans', sans-serif;
+  font-family: 'Chelsea Market', cursive;
 }
 
 .button1{
-    background-color: crimson; 
+    background-color: #FF764E; 
   border: none;
   color: white;
   margin: 7%;
@@ -71,7 +73,7 @@ h1{
 }
 
 .button2{
-    background-color: cyan;
+    background-color: #5ED3EB;
     border:none;
     color:white;
     text-align:center;
@@ -83,7 +85,7 @@ h1{
 }
 
 .button3{
-    background-color: gold;
+    background-color: #FFCD69;
     border:none;
     color:white;
     text-align:center;
@@ -96,11 +98,13 @@ h1{
 
 .fire{
   font-size:18px;
-  font-weight:bold;
   width:50%;
   text-align:center;
   margin:auto;
   
+}
+.boldz{
+  font-weight: 900;
 }
 
 footer{
@@ -109,7 +113,7 @@ footer{
   
 }
 footer section{
-  background: tan;
+  background:#F9E7DC;
   background-size: 25%;
 }
 footer img{
